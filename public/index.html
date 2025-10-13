@@ -23,8 +23,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body { font-family: 'Poppins', sans-serif; }
-    .hero-bg { background: #d0f2ff; padding-top: 2.5rem; padding-bottom: 1.5rem;}
-    .screenshot { box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); border-radius: 15px;}
+    .hero-bg { background: #d0f2ff; padding-top: 2.5rem; padding-bottom: 1.5rem;} 
+    .screenshot { border-radius: 15px;}
     .cta-button { background-color: #6fc573; transition: transform 0.3s ease; }
     .cta-button:hover { transform: scale(1.05); }
     .logo { max-width: 100px;}
@@ -34,7 +34,7 @@
 </head>
 
 <body class="bg-white">
-
+  <!-- #d0f2ff -->
   <!-- Hero Section -->
   <section class="hero-bg py-6">
     <div class="container px-4 flex justify-center items-center ">
@@ -44,29 +44,49 @@
         </div>
         <div class="flex justify-start items-center">
           <div class="text-center md:text-left">
-            <h1 class="text-5xl font-bold mb-1" style="color: #6fc573">Tourist Guide AI</h1>
-            <p class="text-xl font-bold mb-2" style="color: #04a8e8">Discover New Routes, Ask Anything</p>
+            <h1 class="text-4xl md:text-5xl font-bold mb-1" style="color: #6fc573">Tourist Guide AI</h1>
+            <p class="text-2xl md:text-3xl mb-2" style="color: #04a8e8">Routes and Guidance</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Showcase Section -->
-  <section class="py-8 md:py-5 bg-d0f2ff">
-    <div class="container mx-auto px-4">
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-10">
+  <!-- Showcase Section Map-->
+  <section class="py-8 md:py-5">
+    <div class="container mx-auto px-4 m-2">
+      <div class="text-center md:text-center">
+        <h2 class="text-2xl md:text-3xl font-bold mt-2 mb-1" style="color: black">Generate tourist routes in unknown places, in one click</h2>
+      </div>
+      <div class="grid grid-cols-3 md:grid-cols-3 gap-4 md:gap-10 md:ml-14 md:mr-14">
         <div class="text-center">
-          <img src="assets/Start_page.png" alt="Screenshot 1" class="screenshot mx-auto m-2 md:m-6" >
+          <img src="assets/map_generate.png" alt="Screenshot 1" class="screenshot mx-auto m-2" >
         </div>
         <div class="text-center">
-          <img src="assets/Cam_page.png" alt="Screenshot 2" class="screenshot mx-auto m-2 md:m-6">
+          <img src="assets/map_route.png" alt="Screenshot 2" class="screenshot mx-auto m-2">
         </div>
         <div class="text-center">
-          <img src="assets/Speak_page.png" alt="Screenshot 3" class="screenshot mx-auto m-2 md:m-6">
+          <img src="assets/map_modify.png" alt="Screenshot 3" class="screenshot mx-auto m-2">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Showcase Section Chat-->
+  <section class="py-8 md:py-5">
+    <div class="container mx-auto px-4 m-2 mb-2">
+      <div class="text-center md:text-center">
+        <h2 class="text-2xl md:text-3xl font-bold mt-2 mb-1" style="color: black">Take pictures, ask questions and listen to explanations</h2>
+      </div>
+      <div class="grid grid-cols-3 md:grid-cols-3 gap-4 md:gap-10 md:ml-14 md:mr-14">
+        <div class="text-center">
+          <img src="assets/chat_camera.png" alt="Screenshot 1" class="screenshot mx-auto m-2" >
         </div>
         <div class="text-center">
-          <img src="assets/Question_page.png" alt="Screenshot 4" class="screenshot mx-auto m-2 md:m-6">
+          <img src="assets/chat_speak.png" alt="Screenshot 2" class="screenshot mx-auto m-2">
+        </div>
+        <div class="text-center">
+          <img src="assets/chat_ask.png" alt="Screenshot 3" class="screenshot mx-auto m-2">
         </div>
       </div>
     </div>
