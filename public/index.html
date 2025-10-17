@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- MobileApplication Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -15,6 +16,19 @@
     "description": "Generate AI-powered walking routes and get real-time travel insights with Tourist Guide AI.",
     "url": "https://tourist-guide-ai.com",
     "image": "https://tourist-guide-ai.com/assets/touristguide-ai-logo.png"
+  }
+  </script>
+
+  <!-- VideoObject Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "Tourist Guide AI Demo",
+    "description": "See how Tourist Guide AI generates walking routes and answers travel questions in 30 seconds.",
+    "thumbnailUrl": "https://tourist-guide-ai.com/assets/video-thumbnail.jpg",
+    "uploadDate": "2025-10-17",
+    "contentUrl": "https://tourist-guide-ai.com/assets/tourist-guide-ai-demo.mp4"
   }
   </script>
   
@@ -52,6 +66,10 @@
   <section class="hero-bg py-6">
     <div class="container px-4 flex justify-center items-center ">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
+        <video autoplay muted loop class="w-full max-w-md rounded-lg shadow-lg" data-aos="zoom-in">
+          <source src="assets/tourist-guide-ai-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
         <div class="flex justify-center md:justify-end items-center">
           <img src="assets/touristguide-ai-logo.png" alt="Tourist Guide AI Logo" class="logo md:mr-8 mb-3">
         </div>
