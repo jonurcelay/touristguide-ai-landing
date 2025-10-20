@@ -38,9 +38,12 @@
   <style>
     body { font-family: 'Poppins', sans-serif; }
     .hero-bg { background: #d0f2ff; padding-top: 2.5rem; padding-bottom: 1.5rem;}
+    .cta-button { background-color: #6fc573; transition: transform 0.3s ease; }
+    .cta-button:hover { transform: scale(1.05); }
     .logo { max-width: 100px;}
     .footer-link { color: #04a8e8; }
     .footer-link:hover { text-decoration: underline; }
+    .section-img { max-width: 100%; height: auto; border-radius: 8px; }
   </style>
 </head>
 
@@ -67,7 +70,7 @@
 
     <!-- Blog -->
      <section class="hero-bg py-6">
-        <div class="container px-4 mx-auto">
+        <div class="container px-7 md:px-15 mx-auto">
             <h1 class="text-4xl md:text-5xl font-bold mb-4" style="color: #6fc573">Travel Blog</h1>
             <p class="text-lg md:text-xl mb-6" style="color: #04a8e8">Discover travel tips and AI-generated guides with Tourist Guide AI.</p>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -83,63 +86,27 @@
         </div>
     </section>
 
-    <!-- Photo Belt Section-->
-    <section class="py-10 md:py-2" style="background: #d0f2ff">
-        <div class="grid grid-cols-5 md:grid-cols-10 px-5 md:px-15">
-        <div class="text-center">
-            <img src="assets/belt/1.png" alt="Tourist Guide AI in London" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="assets/belt/2.png" alt="Tourist Guide AI in Rome" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="assets/belt/3.png" alt="Tourist Guide AI in Paris" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="assets/belt/4.png" alt="Tourist Guide AI in San Francisco" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="assets/belt/5.png" alt="Tourist Guide AI in Egipt" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="assets/belt/6.png" alt="Tourist Guide AI in Bangkok" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="assets/belt/7.png" alt="Tourist Guide AI in New York" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="assets/belt/8.png" alt="Tourist Guide AI in Shangai" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="assets/belt/9.png" alt="Tourist Guide AI in Barcelona" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="assets/belt/10.png" alt="Tourist Guide AI in Norway" loading="lazy">
-        </div>
-        </div>
-    </section>
-
     <!-- Call To Action (CTA) Section -->
     <section class=" py-10 md:py-10 text-white" style="background-color: #04a8e8">
-        <div class="container mx-auto px-5 text-center">
-        <h2 class="text-3xl font-bold mb-4">Ready to Explore?</h2>
-        <p class="text-lg mb-8">Download Tourist Guide AI now!</p>
-        <div class="flex flex-col md:flex-row justify-center gap-4 mx-auto">
-        <a href="https://play.google.com/store/apps/details?id=com.phototour.ai" class="cta-button inline-flex items-center bg-green-500 text-white p-6 rounded-lg hover:scale-105 transition-transform">
-            <img src="assets/playstore_logo.png" alt="Android Logo" class="w-10 h-10 mr-4">
-            <div class="flex flex-col text-left">
-            <span class="text-sm">Get it on</span>
-            <span class="text-xl font-semibold">Google Play</span>
+        <div class="container mx-auto px-7 text-center">
+            <h2 class="text-3xl font-bold mb-4">Ready to Explore?</h2>
+            <p class="text-lg mb-8">Download Tourist Guide AI now!</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4 mx-auto">
+                <a href="https://play.google.com/store/apps/details?id=com.phototour.ai" class="cta-button inline-flex items-center bg-green-500 text-white p-6 rounded-lg hover:scale-105 transition-transform">
+                    <img src="assets/playstore_logo.png" alt="Android Logo" class="w-10 h-10 mr-4">
+                    <div class="flex flex-col text-left">
+                    <span class="text-sm">Get it on</span>
+                    <span class="text-xl font-semibold">Google Play</span>
+                    </div>
+                </a>
+                <a href="https://apps.apple.com/us/app/tourist-guide-ai/id6751420818" class="cta-button inline-flex items-center bg-green-500 text-white p-6 rounded-lg hover:scale-105 transition-transform">
+                    <img src="assets/apple_logo_white.png" alt="Apple Logo" class="w-12 h-12 mr-4 mb-1">
+                    <div class="flex flex-col text-left">
+                    <span class="text-sm">Get it on the</span>
+                    <span class="text-xl font-semibold">App Store</span>
+                    </div>
+                </a>
             </div>
-        </a>
-        <a href="https://apps.apple.com/us/app/tourist-guide-ai/id6751420818" class="cta-button inline-flex items-center bg-green-500 text-white p-6 rounded-lg hover:scale-105 transition-transform">
-            <img src="assets/apple_logo_white.png" alt="Apple Logo" class="w-12 h-12 mr-4 mb-1">
-            <div class="flex flex-col text-left">
-            <span class="text-sm">Get it on the</span>
-            <span class="text-xl font-semibold">App Store</span>
-            </div>
-        </a>
-        </div>
         </div>
     </section>
 

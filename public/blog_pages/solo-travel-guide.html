@@ -24,9 +24,12 @@
   <style>
     body { font-family: 'Poppins', sans-serif; }
     .hero-bg { background: #d0f2ff; padding-top: 2.5rem; padding-bottom: 1.5rem;}
+    .cta-button { background-color: #6fc573; transition: transform 0.3s ease; }
+    .cta-button:hover { transform: scale(1.05); }
     .logo { max-width: 100px;}
     .footer-link { color: #04a8e8; }
     .footer-link:hover { text-decoration: underline; }
+    .section-img { max-width: 100%; height: auto; border-radius: 8px; }
   </style>
 </head>
 
@@ -54,86 +57,93 @@
     <!-- --------------------------------------------- -->
 
     <!-- Content -->
-    <section class="hero-bg py-10" data-aos="fade-up">
+    <section class="hero-bg py-10">
         <div class="container px-4 mx-auto">
-            <h1 class="text-4xl md:text-5xl font-bold mb-4" style="color: #6fc573">Solo Travel Guide</h1>
-            <p class="text-lg md:text-xl mb-6" style="color: #04a8e8">Travel solo with confidence using Tourist Guide AI’s AI-generated routes and real-time guidance.</p>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4" style="color: #6fc573">Solo Travel Guide: Your 2025 Adventure Awaits</h1>
+            <p class="text-lg md:text-xl mb-6" style="color: #04a8e8">Hey, solo traveler! Ready to explore the world on your terms? With Tourist Guide AI, plan safe, epic routes and get real-time answers to make every trip unforgettable.</p>
+            
+            <div class="mb-8">
+                <h2 class="text-2xl font-bold mb-4" style="color: #04a8e8">Why Solo Travel Is Booming in 2025</h2>
+                <p class="mb-4">Solo travel is hotter than ever, with 82% of Gen Z and Millennials planning solo trips this year (Skift, 2025). Why? It’s all about freedom, self-discovery, and connecting with new cultures at your own pace. From digital nomads to first-time adventurers, solo travel lets you craft your perfect journey.</p>
+                <img src="../assets/solo-traveler-tokyo.jpeg" alt="Solo traveler in Tokyo" class="section-img mb-4" loading="lazy">
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
                 <div>
-                    <h2 class="text-2xl font-bold mb-2" style="color: #04a8e8">Top Solo Routes</h2>
-                    <ul class="list-disc pl-6">
-                        <li>Tokyo: Shibuya to Harajuku Cultural Walk (1.5 hours)</li>
-                        <li>Barcelona: Gothic Quarter Explorer (2 hours)</li>
-                        <li>Lisbon: Alfama District Stroll (1 hour)</li>
-                    </ul>
+                <h2 class="text-2xl font-bold mb-4" style="color: #04a8e8">Pros and Cons of Solo Travel</h2>
+                <h3 class="text-xl font-semibold mb-2">Pros:</h3>
+                <ul class="list-disc pl-6 mb-4">
+                    <li><strong>Total Freedom</strong>: Choose your destinations, pace, and vibe.</li>
+                    <li><strong>Personal Growth</strong>: Build confidence and independence.</li>
+                    <li><strong>Connect Locally</strong>: Meet locals and fellow travelers easily.</li>
+                </ul>
+                <h3 class="text-xl font-semibold mb-2">Cons:</h3>
+                <ul class="list-disc pl-6">
+                    <li><strong>Safety Concerns</strong>: Navigating unfamiliar places alone can feel daunting.</li>
+                    <li><strong>Higher Costs</strong>: No splitting expenses like group travel.</li>
+                    <li><strong>Loneliness</strong>: Some moments can feel isolating.</li>
+                </ul>
                 </div>
                 <div>
-                    <h2 class="text-2xl font-bold mb-2" style="color: #04a8e8">Why Solo with Us?</h2>
-                    <p>Ask your AI guide anything, from safety tips to local dining, and explore with confidence.</p>
+                <h2 class="text-2xl font-bold mb-4" style="color: #04a8e8">Top Solo Travel Destinations for 2025</h2>
+                <ul class="list-disc pl-6">
+                    <li><strong>Tokyo, Japan</strong>: Vibrant Shibuya to Harajuku walk, safe and welcoming.</li>
+                    <li><strong>Barcelona, Spain</strong>: Explore the Gothic Quarter with AI-guided tips.</li>
+                    <li><strong>Lisbon, Portugal</strong>: Stroll Alfama’s colorful streets (1-hour route).</li>
+                    <li><strong>Auckland, New Zealand</strong>: Coastal paths perfect for solo hikers.</li>
+                    <li><strong>Chiang Mai, Thailand</strong>: Budget-friendly temples and markets.</li>
+                </ul>
                 </div>
             </div>
+
+            <div class="mb-8">
+                <h2 class="text-2xl font-bold mb-4" style="color: #04a8e8">How Tourist Guide AI Makes Solo Travel Epic</h2>
+                <p class="mb-4">Our app generates personalized walking routes in seconds and answers your questions on the go. Lost in Lisbon? Snap a photo and ask, “What’s this building?” or “Where’s the nearest café?” Here’s how we’ve got your back:</p>
+                <ul class="list-disc pl-6">
+                <li><strong>Safe Routes</strong>: AI-generated paths avoid sketchy areas.</li>
+                <li><strong>Real-Time Q&A</strong>: Ask anything, from dining tips to local history.</li>
+                <li><strong>Offline Mode</strong>: Explore without Wi-Fi (perfect for remote spots).</li>
+                </ul>
+                <a href="https://youtu.be/JwcOR-YWUtI" class="text-blue-500 hover:underline mt-4 inline-block">Watch our 30-second demo</a>
+            </div>
+
+            <div>
+                <h2 class="text-2xl font-bold mb-4" style="color: #04a8e8">Must-Have Tools for Solo Travelers</h2>
+                <p class="mb-4">Beyond Tourist Guide AI, here are tools to make your trip smoother:</p>
+                <ul class="list-disc pl-6">
+                <li><strong>Google Translate</strong>: Break language barriers instantly.</li>
+                <li><strong>Citymapper</strong>: Navigate public transport in major cities.</li>
+                <li><strong>Meetup</strong>: Connect with local events and travelers.</li>
+                <li><strong>Revolut</strong>: Manage currency exchanges with low fees.</li>
+                </ul>
+            </div>
+
         </div>
     </section>
 
     <!-- --------------------------------------------- -->
 
-    <!-- Photo Belt Section-->
-    <section class="py-5 md:py-2" style="background: #d0f2ff">
-        <div class="grid grid-cols-5 md:grid-cols-10 px-5 md:px-15">
-        <div class="text-center">
-            <img src="../assets/belt/1.png" alt="Tourist Guide AI in London" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="../assets/belt/2.png" alt="Tourist Guide AI in Rome" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="../assets/belt/3.png" alt="Tourist Guide AI in Paris" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="../assets/belt/4.png" alt="Tourist Guide AI in San Francisco" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="../assets/belt/5.png" alt="Tourist Guide AI in Egipt" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="../assets/belt/6.png" alt="Tourist Guide AI in Bangkok" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="../assets/belt/7.png" alt="Tourist Guide AI in New York" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="../assets/belt/8.png" alt="Tourist Guide AI in Shangai" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="../assets/belt/9.png" alt="Tourist Guide AI in Barcelona" loading="lazy">
-        </div>
-        <div class="text-center">
-            <img src="../assets/belt/10.png" alt="Tourist Guide AI in Norway" loading="lazy">
-        </div>
-        </div>
-    </section>
-
     <!-- Call To Action (CTA) Section -->
     <section class=" py-10 md:py-10 text-white" style="background-color: #04a8e8">
-        <div class="container mx-auto px-5 text-center">
-        <h2 class="text-3xl font-bold mb-4">Ready to Explore?</h2>
-        <p class="text-lg mb-8">Download Tourist Guide AI now!</p>
-        <div class="flex flex-col md:flex-row justify-center gap-4 mx-auto">
-        <a href="https://play.google.com/store/apps/details?id=com.phototour.ai" class="cta-button inline-flex items-center bg-green-500 text-white p-6 rounded-lg hover:scale-105 transition-transform">
-            <img src="../assets/playstore_logo.png" alt="Android Logo" class="w-10 h-10 mr-4">
-            <div class="flex flex-col text-left">
-            <span class="text-sm">Get it on</span>
-            <span class="text-xl font-semibold">Google Play</span>
+        <div class="container mx-auto px-7 text-center">
+            <h2 class="text-3xl font-bold mb-4">Ready to Explore?</h2>
+            <p class="text-lg mb-8">Download Tourist Guide AI now!</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4 mx-auto">
+            <a href="https://play.google.com/store/apps/details?id=com.phototour.ai" class="cta-button inline-flex items-center bg-green-500 text-white p-6 rounded-lg hover:scale-105 transition-transform">
+                <img src="../assets/playstore_logo.png" alt="Android Logo" class="w-10 h-10 mr-4">
+                <div class="flex flex-col text-left">
+                <span class="text-sm">Get it on</span>
+                <span class="text-xl font-semibold">Google Play</span>
+                </div>
+            </a>
+            <a href="https://apps.apple.com/us/app/tourist-guide-ai/id6751420818" class="cta-button inline-flex items-center bg-green-500 text-white p-6 rounded-lg hover:scale-105 transition-transform">
+                <img src="../assets/apple_logo_white.png" alt="Apple Logo" class="w-12 h-12 mr-4 mb-1">
+                <div class="flex flex-col text-left">
+                <span class="text-sm">Get it on the</span>
+                <span class="text-xl font-semibold">App Store</span>
+                </div>
+            </a>
             </div>
-        </a>
-        <a href="https://apps.apple.com/us/app/tourist-guide-ai/id6751420818" class="cta-button inline-flex items-center bg-green-500 text-white p-6 rounded-lg hover:scale-105 transition-transform">
-            <img src="../assets/apple_logo_white.png" alt="Apple Logo" class="w-12 h-12 mr-4 mb-1">
-            <div class="flex flex-col text-left">
-            <span class="text-sm">Get it on the</span>
-            <span class="text-xl font-semibold">App Store</span>
-            </div>
-        </a>
-        </div>
         </div>
     </section>
 
