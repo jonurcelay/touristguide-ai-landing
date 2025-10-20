@@ -43,7 +43,9 @@
     .logo { max-width: 100px;}
     .footer-link { color: #04a8e8; }
     .footer-link:hover { text-decoration: underline; }
-    .section-img { max-width: 100%; height: auto; border-radius: 8px; }
+    .post-card { background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); overflow: hidden; }
+    .post-img { width: 100%; height: 200px; object-fit: cover; }
+    .post-content { padding: 1.5rem; }
   </style>
 </head>
 
@@ -69,20 +71,30 @@
     </section>
 
     <!-- Blog -->
-     <section class="hero-bg py-6">
-        <div class="container px-7 md:px-15 mx-auto">
-            <h1 class="text-4xl md:text-5xl font-bold mb-4" style="color: #6fc573">Travel Blog</h1>
-            <p class="text-lg md:text-xl mb-6" style="color: #04a8e8">Discover travel tips and AI-generated guides with Tourist Guide AI.</p>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                    <h2 class="text-2xl font-bold mb-2" style="color: #04a8e8"><a href="blog_pages/solo-travel-guide.html" class="hover:underline">Solo Travel Guide</a></h2>
-                    <p>Explore safe, AI-generated routes for solo travelers.</p>
+    <section class="hero-bg py-10">
+        <div class="container px-7 mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-center" style="color: #6fc573">Travel Blog</h1>
+            <p class="text-lg md:text-xl mb-8 text-center" style="color: #04a8e8">Discover travel tips and AI-powered guides to plan your 2025 adventures with Tourist Guide AI.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="post-card">
+                <img src="/assets/solo-traveler-tokyo.jpeg" alt="Solo traveler in Tokyo" class="post-img">
+                <div class="post-content">
+                    <h2 class="text-2xl font-bold mb-2" style="color: #04a8e8"><a href="/blog_pages/solo-travel-guide.html" class="hover:underline">Solo Travel Guide: Your 2025 Adventure</a></h2>
+                    <p class="text-gray-700 mb-4">Ready to explore solo? Learn why 82% of Gen Z are hitting the road alone in 2025, with top destinations like Tokyo and Barcelona, plus safety tips powered by our AI app.</p>
+                    <a href="/blog_pages/solo-travel-guide.html" class="text-blue-500 font-semibold hover:underline">Read More</a>
                 </div>
-                <div>
-                    <h2 class="text-2xl font-bold mb-2" style="color: #04a8e8"><a href="blog_pages/cheap-travel-guide-app.html" class="hover:underline">Cheap Travel Guide App</a></h2>
-                    <p>Discover budget-friendly routes and tips with AI.</p>
+                </div>
+                <div class="post-card">
+                <img src="/assets/budget-traveler-hanoi.jpeg" alt="Budget traveler in Hanoi" class="post-img">
+                <div class="post-content">
+                    <h2 class="text-2xl font-bold mb-2" style="color: #04a8e8"><a href="/blog_pages/cheap-travel-guide-app.html" class="hover:underline">Cheap Travel Guide: Explore on a Budget</a></h2>
+                    <p class="text-gray-700 mb-4">Travel smarter in 2025 with budget-friendly routes in Budapest, Hanoi, and more. Get money-saving hacks and free AI-generated itineraries to stretch your dollars.</p>
+                    <a href="/blog_pages/cheap-travel-guide-app.html" class="text-blue-500 font-semibold hover:underline">Read More</a>
+                </div>
                 </div>
             </div>
+
         </div>
     </section>
 
